@@ -3,6 +3,7 @@ on:
     push:
         branches:
             - 'auth-site'
+    workflow_dispatch: []
 jobs:
     build:
         name: Build Snowpack Site
